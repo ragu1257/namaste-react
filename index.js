@@ -6,7 +6,7 @@ import ContactUs from "./src/components/ContactUs";
 import Body from "./src/components/Body";
 import "./index.css";
 import Error from "./src/components/Error";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import RestaurantMenu from "./src/components/RestaurantMenu";
 import { Provider } from "react-redux";
 import store from "./src/app/store";

@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 import UserContext from "../utils/UserContext";
 
 function RestaurantMenu() {

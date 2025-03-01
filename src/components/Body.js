@@ -1,6 +1,6 @@
 import { resList } from "../utils/mockData";
 import RestaurantCard, { withPromoted } from "./RestaurantCard";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const RestaurantCardWithPromoted = withPromoted(RestaurantCard);
 function Body() {
